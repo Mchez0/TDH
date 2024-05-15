@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Deconstruction Hub</title>
+    <link rel="stylesheet" href="TDH.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#">
+                <img src="Images/TDHlogo.jpeg" alt="The Deconstruction Hub Logo" height="50">
+                <span class="company-name">The Deconstruction Hub</span>
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="#">About Us</a>
+            <a href="https://twitter.com/thedeconhub">Twitter</a>
+            <a href="#">Sign up</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Recently Published Articles</h2>
+            <ul>
+                <li><a href="Container Tech and Fabrication.html" style="text-decoration:none;">Container Tech & Fabrication</a></li>
+                <li><a href="Construction Professional Bodies in Kenya.html" style="text-decoration:none;">Professional Bodies in Kenya</a></li>
+                <li><a href="#" style="text-decoration:none;">Article 3</a></li>
+                <!-- Add more articles as needed -->
+            </ul>
+        </section>
+    </div>
+    <div class="top">
+        <em><a href="#header">Top</a></em>
+    </div>
+
+    <footer class="bottom-fixed">
+        <h2>About Us</h2>
+        <p>At The Deconstruction Hub we are out to educate and equip non-professionals and professionals in the construction industry with simplified, factual, and insightful breakdowns of industry trends, practices, and opportunities in construction. Sign up for the newsletter and follow us on Twitter, be a part of the TDH family.</p>
+        <p>&copy; <span id="currentYear"></span> The Deconstruction Hub</p>
+
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
+    
+    </footer>
+</body>
+</html>

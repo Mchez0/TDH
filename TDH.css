@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #dedede;
+    flex-direction: column;
+    margin: 0;
+}
+body a {
+    color: rgb(17, 76, 112);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+body a :hover{
+    color: rgb(43, 194, 13);
+}
+body nav :hover{
+    color: rgb(43, 194, 13);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+header .logo-container a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+header .company-name {
+    font-size: 24px; /* Match font size to logo height */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 10px; /* Adjusted margin for better alignment */
+}
+.navbar {
+    display: block;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+.container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.references {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.top {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Footer Styling */
+.bottom-fixed {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 2px 20px;
+    color: #fff;
+    text-align: center;
+    }
+footer h2 {
+    color: #fff; /* Set the color of the About Us heading */
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
